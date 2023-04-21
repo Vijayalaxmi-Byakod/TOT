@@ -17,9 +17,9 @@ import org.testng.asserts.SoftAssert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Program1Test {
+public class Program1 {
 	@Test
-	public void m3Test() throws AWTException, InterruptedException {
+	public void m3() throws AWTException, InterruptedException {
 	WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
