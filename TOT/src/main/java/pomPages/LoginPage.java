@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
+	//login Page
 		//Declaration
 		@FindBy(name="username") private WebElement userNameTextField;
 		@FindBy(className="password-container") private WebElement passwordTextField;
