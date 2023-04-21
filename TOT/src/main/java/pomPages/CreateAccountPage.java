@@ -16,6 +16,7 @@ public class CreateAccountPage {
 	@FindBy(id="confirm-password") private WebElement confirmPasswordTextField;
 	@FindBy(id="mobile_number") private WebElement mobileNoTextField;
 	@FindBy(id="date") private WebElement dateTextField;
+	@FindBy(id="resume")private WebElement resume;
 	@FindBy(xpath="//button[text()='Submit']") private WebElement submitButton;
 	
 	//Initialization
